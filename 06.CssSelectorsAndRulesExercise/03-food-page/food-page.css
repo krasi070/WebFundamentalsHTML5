@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+header {
+    margin: 0;
+    background: url("images/header.jpg") no-repeat center;
+    background-size: cover;
+    height: 140px;
+    line-height: 140px;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+main {
+    color: #000000;
+    width: 90%;
+    margin: 0 auto;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+aside img {
+    width: 360px;
+    height: 180px;
+}
+
+aside > h1 {
+    margin: 20px 0;
+}
+
+aside > p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.content {
+    width: 60%;
+    display: inline-block;
+}
+
+.content article > h1 {
+    padding: 20px 0;
+}
+
+.content article button {
+    background: none;
+    padding: 10px 20px;
+    border: 1px solid #ec5353;
+    border-radius: 25px;
+    color: #ec5353;
+    margin: 10px 0;
+}
+
+.content article button:hover {
+    background-color: #ec5353;
+    color: #ffffff;
+    cursor: pointer;
+}

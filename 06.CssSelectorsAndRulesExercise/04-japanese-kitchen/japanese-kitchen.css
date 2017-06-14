@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    background: url("images/dark-wood.jpg");
+}
+
+header {
+    width: 60%;
+    margin: 0 auto;
+    height: 140px;
+    line-height: 140px;
+    background-image: url("images/header-page.jpg");
+}
+
+header > h1 {
+    text-align: right;
+    margin-right: 10px;
+    font-size: 3em;
+}
+
+nav {
+    width: 60%;
+    margin: 5px auto;
+    background-image: url("images/header-page.jpg");
+}
+
+nav li {
+    display: inline-block;
+    margin: 7px 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li a:hover {
+    color: #000000;
+}
+
+main {
+    width: 60%;
+    background: #ffffff;
+    margin: 5px auto;
+}
+
+section {
+    display: inline-block;
+    width: 75%;
+}
+
+article > p {
+    width: 40%;
+}
+
+article > figure {
+    margin: 20px;
+    border: 1px solid #cccccc;
+    width: 44%;
+}
+
+article img,
+article figcaption {
+    margin: 5px 5px;
+}
+
+div, p, figure {
+    display: inline-block;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+footer {
+    background-color: #888888;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+}
