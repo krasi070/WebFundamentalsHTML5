@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+footer {
+    margin: 0 auto;
+    width: 1180px;
+}
+
+footer > div {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+div > h2 {
+    color: #ffffff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+div > ul > li {
+    list-style-type: none;
+}
+
+div > ul > li > a {
+    color: #B5AC84;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#links > div {
+    display: inline-block;
+}
+
+#facebook {
+    width: 58px;
+    height: 58px;
+    background: url("images/social.jpg") -9px 0;
+}
+
+#facebook:hover {
+    background: url("images/social.jpg") -9px -63px;
+    cursor: pointer;
+}
+
+#linkedin {
+    width: 58px;
+    height: 58px;
+    background: url("images/social.jpg") -200px 0;
+}
+
+#linkedin:hover {
+    background: url("images/social.jpg") -200px -63px;
+    cursor: pointer;
+}
+
+#youtube {
+    width: 58px;
+    height: 58px;
+    background: url("images/social.jpg") -519px 0;
+}
+
+#youtube:hover {
+    background: url("images/social.jpg") -519px -63px;
+    cursor: pointer;
+}
+
+#twitter {
+    width: 58px;
+    height: 58px;
+    background: url("images/social.jpg") -73px 0;
+}
+
+#twitter:hover {
+    background: url("images/social.jpg") -73px -63px;
+    cursor: pointer;
+}

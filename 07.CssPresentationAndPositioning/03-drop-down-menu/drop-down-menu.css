@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1D211E;
+}
+
+ul {
+    background-color: #E67C1F;
+}
+
+nav {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #E67C1F;
+}
+
+nav ul {
+    position: relative;
+}
+
+nav > ul > li > ul,
+nav > ul > li > ul > li > ul {
+    display: none;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li:hover > ul {
+    position: absolute;
+    display: inline-block;
+}
+
+nav > ul > li:hover > ul > li:hover > ul {
+    position: absolute;
+    display: inline-block;
+}
