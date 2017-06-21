@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font: 16px Tahoma, sans-serif;
+    color: #778495;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    font-family: "Vollkorn", sans-serif;
+}
+
+article {
+    vertical-align: top;
+    display: inline-block;
+    height: 600px;
+    width: 320px;
+    margin-right: 8px;
+    border: 2px solid #F8F9FB;
+}
+
+article h2:first-of-type {
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #EBEFF2;
+    margin-top: 0;
+    padding: 30px;
+    font-size: 30px;
+}
+
+article h2:last-of-type {
+    font-size: 60px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+article ul {
+    margin: 10px;
+}
+
+article ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #F8F9FB;
+    padding: 3px;
+    margin: 20px 0;
+}
+
+article button {
+    background: #DDDDDD;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 20px;
+    width: 280px;
+    height: 50px;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 5px;
+}
+
+.first {
+    margin-top: 212px;
+}
+
+.second {
+    margin-top: 166px;
+}
+
+.third {
+    margin-top: 72px;
+}
+
+article:hover,
+button:hover {
+    cursor: pointer;
+}
+
+article:hover h2:first-of-type,
+article:hover button {
+    background-color: #65D3E2;
+}
+
+article:hover h2:last-of-type {
+    color: #65D3E2;
+}
+
+.last {
+    margin-right: 0;
+}

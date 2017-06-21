@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Lemon-Regular';
+    src: url('fonts/Lemon-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #602D75;
+}
+
+body {
+    font-family: "Lemon-Regular", Arial;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #FFAE32;
+    border: 0;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+article {
+    background-color: #602D75;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 220px;
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+article > h2 {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+article > p {
+    font-size: 15px;
+    color: #FFAE32;
+}
+
+article > img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #806671;
+}
+
+article > ul {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+article > ul > li {
+    color: #ffffff;
+    list-style-type: none;
+}
+
+article > button {
+    font-family: "Lemon-Regular", Arial;
+    font-size: 15px;
+    color: #9E4AFF;
+    background: #ffffff;
+    border: 3px solid #DDDDDD;
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+article > button:hover {
+    color: #000000;
+    cursor: pointer;
+}
