@@ -1,0 +1,106 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+ul, div, nav, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: Tahoma, sans-serif;
+    padding: 80px 50px;
+}
+
+div {
+    display: inline-block;
+}
+
+nav {
+    width: 75%;
+}
+
+nav ul {
+    background-color: #384452;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 25px;
+}
+
+nav a {
+    margin-left: 15px;
+    color: #8baec2;
+    text-decoration: none;
+}
+
+nav a::before {
+    font-family: FontAwesome, serif;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+li:first-child a::before {
+    content: "\f002";
+}
+
+li:nth-child(2) a::before {
+    content: "\f02c";
+}
+
+li:nth-child(3) a::before {
+    content: "\f041";
+}
+
+li:nth-child(4) a::before {
+    content: "\f007";
+}
+
+li:hover {
+    background-color: #3bbc96;
+    cursor: pointer;
+}
+
+li:hover a {
+    color: #ffffff;
+}
+
+main {
+    background-color: #eeeeee;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    color: #374574;
+    display: block;
+    font-weight: bold;
+    width: 210px;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+input {
+    border: 1px solid #cdcdcd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 46px;
+    padding-left: 14px;
+}
+
+button {
+    margin-left: 38px;
+    width: 210px;
+    height:46px;
+    text-transform: uppercase;
+    background-color: #384452;
+    color: #ced1ca;
+}
+
+button:hover {
+    background-color: #3bbc96;
+    color: #fff7e4;
+    cursor: pointer;
+}
