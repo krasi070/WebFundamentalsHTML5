@@ -1,0 +1,134 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 13px Tahoma, Helvetica, sans-serif;
+    background-color: #EBEBEB;
+}
+
+header, main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, section {
+    border-bottom: 2px dashed #D8D8D8;
+}
+
+header {
+    background-color: #F1F1F1;
+    padding: 30px 10px;
+}
+
+h1 {
+    font-weight: normal;
+    color: #3AA3E5;
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+section {
+    padding: 10px 0;
+}
+
+input, select {
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding-left: 5px;
+    width: 200px;
+}
+
+fieldset {
+    border: none;
+    display: inline-block;
+}
+
+section > div {
+    position: relative;
+    display: inline-block;
+}
+
+section > div:first-child {
+    width: 80%;
+}
+
+section > div:last-child {
+    margin-left: 39px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+section > div > label {
+    font-weight: bold;
+}
+
+input[type="search"] {
+    padding-right: 17px;
+}
+
+i {
+    position: absolute;
+    left: 177px;
+    top: 29px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    color: #000;
+}
+
+i::before {
+    font-size: 20px;
+}
+
+form > fieldset:first-child {
+    width: 30%;
+}
+
+form > fieldset:first-child input {
+    display: block;
+    margin: 10px 0;
+}
+
+form > fieldset:last-child {
+    width: 50%;
+    margin-left: 239px;
+}
+
+form > fieldset:last-child div {
+    display: inline-block;
+}
+
+select {
+    width: 396px;
+}
+
+input[type="date"] {
+    width: 294px;
+}
+
+button {
+    width: 140px;
+    height: 30px;
+    float: right;
+    margin: 20px 0;
+    background: #3AA3E5;
+    color: #ffffff;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #3BBC96;
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+    <header>
+        <h1>Room Reservation</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Basic Information</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                    blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+                    nec commodo.
+                </p>
+            </div>
+            <div>
+                <label for="search">Search</label>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="search" name="search" id="search" />
+            </div>
+        </section>
+        <section>
+            <form>
+                <fieldset>
+                    <h2>Personal Details</h2>
+                    <input type="text" placeholder="First Name" name="first-name" id="first-name" />
+                    <input type="text" placeholder="Last Name" name="last-name" id="last-name" />
+                    <input type="text" placeholder="Enter Email" name="email" id="email" />
+                </fieldset>
+                <fieldset>
+                    <h2>Request a reservation</h2>
+                    <div>
+                        <label for="room">Select a Room</label>
+                        <select id="room" name="room">
+                            <option value="1">Room 1</option>
+                            <option value="2">Room 2</option>
+                            <option value="3">Room 3</option>
+                            <option value="4">Room 4</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="number">Number of Rooms</label>
+                        <input type="number" min="1" max="4" name="number" id="number" />
+                    </div>
+                    <div>
+                        <label for="check-in">Check-In:</label>
+                        <input type="date" name="check-in" id="check-in" />
+                    </div>
+                    <div>
+                        <label for="check-out">Check-Out:</label>
+                        <input type="date" name="check-out" id="check-out" />
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <button>book now</button>
+    </main>
+</body>
+</html>
