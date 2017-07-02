@@ -1,0 +1,19 @@
+form {
+    width: 300px;
+}
+
+form, input, textarea {
+    box-sizing: border-box;
+}
+
+form, input, textarea, select {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+label {
+    color: #2d2d2d;
+    font-size: 15px;
+    word-wrap: break-word;
+}
