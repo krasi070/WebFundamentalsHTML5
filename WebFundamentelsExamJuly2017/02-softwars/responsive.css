@@ -1,0 +1,40 @@
+@media screen and (max-width: 1024px) {
+    header {
+        min-height: 500px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .info {
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        min-height: 400px;
+    }
+
+    body {
+        font-size: 0.9em;
+    }
+
+    .blog .container article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog img {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+}

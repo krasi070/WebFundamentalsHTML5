@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StarWars Form</title>
+    <link rel="stylesheet" href="star-wars-form.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h3>may the force be with you</h3>
+            <h2>Thanks for pre-ordering!</h2>
+        </header>
+        <section>
+            <form>
+                <div class="form-row payment">
+                    <div class="form-half-row pay-pal">
+                        <input type="radio" name="payment" id="pay-pal" value="pay-pal" />
+                        <label for="pay-pal"><span><span></span></span>Pay Pal</label>
+                        <img src="images/PayPal.png" />
+                    </div>
+                    <div class="form-half-row card">
+                        <input type="radio" name="payment" id="card" value="card" checked />
+                        <label for="card"><span><span></span></span>Debit/Credit Card</label>
+                        <img src="images/MasterCard.png" />
+                    </div>
+                </div>
+                <div class="form-row card-number">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" placeholder="4111 1111 1111 1111" id="card-number" name="card-number" />
+                </div>
+                <div class="form-row card-info">
+                    <div class="form-half-row expiry">
+                        <label for="expiry">Expiry</label>
+                        <input type="text" placeholder="MM/YY" id="expiry" name="expiry" />
+                    </div>
+                    <div class="form-half-row csv">
+                        <label for="csv">CSV</label>
+                        <input type="text" placeholder="123" id="csv" name="csv" />
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="button">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="submit" value="Finish and Pay" />
+                </div>
+            </form>
+            <p>
+                That's
+                <span>$19.99</span>
+            </p>
+            <img src="images/R2D2.png" id="r2d2"/>
+        </section>
+    </main>
+</body>
+</html>

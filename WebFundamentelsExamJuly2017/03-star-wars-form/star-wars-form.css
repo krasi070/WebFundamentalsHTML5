@@ -1,0 +1,197 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background: #4C8ADD;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+main {
+    width: 600px;
+    margin: 100px auto;
+}
+
+header {
+    text-align: center;
+}
+
+header > h3 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+header > h2 {
+    margin-bottom: 60px;
+}
+
+section,
+.form-half-row.card,
+.form-half-row.pay-pal,
+.button,
+.form-half-row.csv,
+input[type="radio"] + label,
+input[type="radio"] + label > span {
+    position: relative;
+}
+
+.form-row {
+    width: 600px;
+    background-color: #5496EF;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+.form-half-row {
+    width: 288px;
+    height: 60px;
+    display: inline-block;
+}
+
+.form-half-row.card,
+.form-half-row.csv {
+    padding-left: 20px;
+}
+
+.card img,
+.pay-pal img {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    margin-left: 35px;
+}
+
+input[type="radio"] + label > span {
+    display: inline-block;
+    background-color: #5496EF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 4px solid #325D97;
+    position: absolute;
+    top: -5px;
+    left: -35px;
+}
+
+input[type="radio"]:checked + label > span span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #FFF;
+    z-index: 2;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+input[type="radio"]:hover,
+input[type="radio"] + label {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 1.1em;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+input[type="text"]::-moz-placeholder {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+input[type="text"]:-ms-input-placeholder {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+input[type="text"]:-moz-placeholder {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.card-number {
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+.pay-pal,
+.expiry {
+    border-right: 1px solid #FFF;
+}
+
+.csv i {
+    font-size: 1.5em;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+input[type="submit"] {
+    width: 600px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #3A77C8;
+    border: none;
+    color: #FFF;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.button i {
+    font-size: 1.5em;
+    position: absolute;
+    top: 18px;
+    right: 350px;
+}
+
+section > p {
+    text-align: right;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+section > p > span {
+    font-weight: 700;
+}
+
+#r2d2 {
+    position: absolute;
+    top: 130px;
+    left: -325px;
+    z-index: -1;
+}
